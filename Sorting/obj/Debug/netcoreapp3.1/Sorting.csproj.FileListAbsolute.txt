@@ -10,3 +10,4 @@ C:\Users\Sagar.Talwar\source\repos\DataStructuresAndAlgorithms\Sorting\bin\Debug
 C:\Users\Sagar.Talwar\source\repos\DataStructuresAndAlgorithms\Sorting\obj\Debug\netcoreapp3.1\Sorting.dll
 C:\Users\Sagar.Talwar\source\repos\DataStructuresAndAlgorithms\Sorting\obj\Debug\netcoreapp3.1\Sorting.pdb
 C:\Users\Sagar.Talwar\source\repos\DataStructuresAndAlgorithms\Sorting\obj\Debug\netcoreapp3.1\Sorting.genruntimeconfig.cache
+C:\Users\Sagar.Talwar\source\repos\DataStructuresAndAlgorithms\Sorting\obj\Debug\netcoreapp3.1\Sorting.csprojAssemblyReference.cache

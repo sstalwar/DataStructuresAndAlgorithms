@@ -15,11 +15,15 @@ namespace Sorting
 
             //Selection Sort
             var selection = new SelectionSort();
-            var sortedA = selection.Sort(A);
+            var selectionSortedA = selection.Sort(A);
             Console.WriteLine("\nSelection sorted Array: ");
-            sortedA.ToList().ForEach(i => Console.Write(i.ToString() + " "));
+            selectionSortedA.ToList().ForEach(i => Console.Write(i.ToString() + " "));
 
             //Bubble Sort
+            var bubble = new BubbleSort();
+            var bubbleSortedA = bubble.Sort(A);
+            Console.WriteLine("\nBubble sorted Array: ");
+            bubbleSortedA.ToList().ForEach(i => Console.Write(i.ToString() + " "));
             Console.ReadLine();
         }
     }
