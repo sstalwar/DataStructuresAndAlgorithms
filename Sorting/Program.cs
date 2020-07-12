@@ -24,6 +24,7 @@ namespace Sorting
             var bubbleSortedA = bubble.Sort(A);
             Console.WriteLine("\nBubble sorted Array: ");
             bubbleSortedA.ToList().ForEach(i => Console.Write(i.ToString() + " "));
+
             Console.ReadLine();
         }
     }
