@@ -95,7 +95,10 @@ namespace DataStructures
             return null;
         }
 
-
+        public Node DeleteNodeAtNthPosition(int data, int position)
+        {
+            return null;
+        }
         public void PrintLinkedList()
         {
             Node temp = head;
