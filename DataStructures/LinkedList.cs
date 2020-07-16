@@ -95,10 +95,28 @@ namespace DataStructures
             return null;
         }
 
-        public Node DeleteNodeAtNthPosition(int data, int position)
+        public Node DeleteNodeAtNthPosition(int position)
         {
+            if (head == null)
+            {
+                return null;
+            }
+            if (position == 0 || (head == null & position > 1))
+            {
+                Console.WriteLine("\n Error: Please provide correct position");
+                return null;
+            }
+
+            if (position == 1)
+            {
+                var temp = head;
+                head = temp.next;
+                temp.next = null;
+            }
+
             return null;
         }
+
         public void PrintLinkedList()
         {
             Node temp = head;

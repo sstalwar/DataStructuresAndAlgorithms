@@ -15,9 +15,10 @@ namespace DataStructures
                 Console.WriteLine("1. Add element to the beginning: ");
                 Console.WriteLine("2. Add element to the end: ");
                 Console.WriteLine("3. Add element at nth position:");
+                Console.WriteLine("4. Delete element at nth position:");
                 Console.WriteLine("Please enter you choice: ");
                 var choice = Int32.Parse(Console.ReadLine());
-                string input;
+                string input, location;
                 int data;
 
                 switch (choice)
@@ -54,10 +55,10 @@ namespace DataStructures
                         if (Int32.TryParse(input, out data))
                         {
                             Console.WriteLine("please enter location to be added to the Linked List:");
-                            var location = Console.ReadLine();
-                            if (Int32.TryParse(location, out int loc))
+                            location = Console.ReadLine();
+                            if (Int32.TryParse(location, out int pos))
                             {
-                                linkedList.AddToNthPosition(data, loc);
+                                linkedList.AddToNthPosition(data, pos);
                                 linkedList.PrintLinkedList();
                             }
                             else
@@ -70,6 +71,15 @@ namespace DataStructures
                             Console.WriteLine("Please enter numerical data only");
                         }
                         break;
+                    case 4:
+                        Console.WriteLine("Please element position to be removed");
+                        location = Console.ReadLine();
+                        if (Int32.TryParse(location, out int loc))
+                        {
+                            linkedList.DeleteNodeAtNthPosition(loc);
+                            linkedList.PrintLinkedList();
+                        }
+                        break;
                     default: break;
 
                 }
@@ -78,6 +88,17 @@ namespace DataStructures
                 yes = (char)Console.ReadKey().Key;
 
             }
+
+            //linkedList.AddToBegining(1);
+            //linkedList.AddToBegining(2);
+            //linkedList.AddToBegining(3);
+            //linkedList.AddToBegining(4);
+            //linkedList.AddToBegining(5);
+            //linkedList.AddToEnd(5);
+            //linkedList.AddToEnd(1);
+            //linkedList.AddToEnd(2);
+            //linkedList.AddToNthPosition(6, 3);
+            //linkedList.PrintLinkedList();
         }
     }
 }
