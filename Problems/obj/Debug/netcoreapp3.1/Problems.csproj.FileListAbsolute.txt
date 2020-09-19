@@ -1,0 +1,13 @@
+C:\Development\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\Problems\bin\Debug\netcoreapp3.1\Problems.exe
+C:\Development\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\Problems\bin\Debug\netcoreapp3.1\Problems.deps.json
+C:\Development\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\Problems\bin\Debug\netcoreapp3.1\Problems.runtimeconfig.json
+C:\Development\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\Problems\bin\Debug\netcoreapp3.1\Problems.runtimeconfig.dev.json
+C:\Development\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\Problems\bin\Debug\netcoreapp3.1\Problems.dll
+C:\Development\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\Problems\bin\Debug\netcoreapp3.1\Problems.pdb
+C:\Development\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\Problems\obj\Debug\netcoreapp3.1\Problems.csprojAssemblyReference.cache
+C:\Development\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\Problems\obj\Debug\netcoreapp3.1\Problems.AssemblyInfoInputs.cache
+C:\Development\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\Problems\obj\Debug\netcoreapp3.1\Problems.AssemblyInfo.cs
+C:\Development\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\Problems\obj\Debug\netcoreapp3.1\Problems.csproj.CoreCompileInputs.cache
+C:\Development\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\Problems\obj\Debug\netcoreapp3.1\Problems.dll
+C:\Development\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\Problems\obj\Debug\netcoreapp3.1\Problems.pdb
+C:\Development\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\Problems\obj\Debug\netcoreapp3.1\Problems.genruntimeconfig.cache
